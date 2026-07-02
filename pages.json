@@ -1,9 +1,21 @@
 {
-	"pages": [ //pages数组中第一项表示应用启动页，参考：https://doc.dcloud.net.cn/uni-app-x/collocation/pagesjson.html
+	"pages": [
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app x"
+				"navigationBarTitleText": "Still"
+			}
+		},
+		{
+			"path": "pages/mood/mood",
+			"style": {
+				"navigationBarTitleText": "今日心情"
+			}
+		},
+		{
+			"path": "pages/calendar/calendar",
+			"style": {
+				"navigationBarTitleText": "我的记录"
 			}
 		}
 	],
